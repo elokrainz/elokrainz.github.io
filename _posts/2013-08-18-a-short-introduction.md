@@ -4,17 +4,11 @@ date: 2013-08-18 22:00
 layout: post
 category: miscellaneous
 tags: website blog
-description: "Welcome to my new website! Over the past few weeks, I've done my 
-best to design a clean and simple way of communicating what I've been up to 
-and sharing my thoughts with the outside world."
-excerpt: "Over the past few weeks, I've done my best to design a clean and 
-simple way of communicating what I've been up to and sharing my thoughts with 
-the outside world. This website is intended to serve as a means of 
-professional and personal contact, as well as a medium for me to express my 
-ideas and talk about the things that I find interesting."
+description: "Welcome to my new website!."
+excerpt: "I find nothing."
 ---
 
-<p class="lead">Welcome to my personal portfolio!</p>
+<p class="lead">Welcome to my personal test!</p>
 
 Over the past few weeks, I've done my best to design a clean and simple way of 
 communicating what I've been up to and sharing my thoughts with the outside 

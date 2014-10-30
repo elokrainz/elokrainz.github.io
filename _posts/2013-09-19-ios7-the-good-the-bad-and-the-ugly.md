@@ -1,12 +1,11 @@
 ---
-title: "iOS 7: The Good, the Bad, and the Ugly"
+title: "test _ io"
 date: 2013-09-19 15:45
 layout: post
 category: reviews
 tags: reviews products
-description: "The good and the bad of iOS 7, as well as my thoughts on Apple's 
-future direction as a company."
-excerpt: "Just under a year from the controversial release of iOS 6, the company that essentially invented the modern smartphone is back again with an operating system it hopes will leave the complaints of the past behind it: iOS 7."
+description: "news for what."
+excerpt: "Just under a year"
 ---
 
 <img class="img-responsive center" alt="iOS 7" src="/assets/images/apple/ios7.png">
