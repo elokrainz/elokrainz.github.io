@@ -328,7 +328,15 @@ a.list-group-item:hover,a.list-group-item:focus{text-decoration:none;background-
 .invisible{visibility:hidden}
 .text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}
 .affix{position:fixed}
-@font-face{font-family:'Roboto';src:url('../font/Roboto-Thin.ttf') format('truetype);font-weight:normal;font-style:normal}[class^="icon-"],[class*=" icon-"]{font-family:Roboto;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em}
+@font-face{
+    font-family: 'roboto';
+    src: url('roboto-thin-webfont.eot');
+    src: url('roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('roboto-thin-webfont.woff2') format('woff2'),
+    url('roboto-thin-webfont.woff') format('woff'),
+    url('roboto-thin-webfont.ttf') format('truetype');
+    font-weight:normal;font-style:normal}[class^="icon-"],[class*=" icon-"]{font-family:Roboto;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em}
+
 [class^="icon-"]:before,[class*=" icon-"]:before{text-decoration:inherit;display:inline-block;speak:none}
 .icon-large:before{vertical-align:-10%;font-size:1.3333333333333333em}
 a [class^="icon-"],a [class*=" icon-"]{display:inline}
