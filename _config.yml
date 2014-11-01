@@ -1,7 +1,7 @@
 # Site Variables
 name:             "Elokrainz"
 description:      "Null."
-url:              "http://elokrainz.tk"
+#url:              "http://elokrainz.tk"
 blog:             "/blog"
 blog_categories:  "/blog/categories"
 blog_tags:        "/blog/tags"
