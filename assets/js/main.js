@@ -28,14 +28,9 @@ function getPageOnLoad() {
     var page = window.location.hash;
     switch (page) {
         case "#home":
-        case "#projects":
+        case "#random":
         case "#blog":
-        case "#resume":
         case "#contact":
-            break;
-        case "#resume-requested":
-            jQuery("#resume-success").show();
-            page = "#resume";
             break;
         default:
             page = "#home";
@@ -56,69 +51,6 @@ function setupNavLinks() {
             showContentPage(page);
         });
     });
-}
-
-/* VALIDATE RESUME FORM INPUT
- * ------------------------------------------------------------------------- */
-
- // bind events to form change
-function setupResumeFormValidation() {
-    jQuery("#resumeContactName").on("input", validateResume);
-    jQuery("#resumeContactEmail").on("input", validateResume);
-    jQuery("#resumeContactMessage").on("input", highlightMessage);
-}
-
-// check name and email fields on form change, alter submit button state
-function validateResume() {
-    var valid = validateResumeName();
-    valid = validateResumeEmail() && valid;
-
-    if (valid) {
-        jQuery("#resumeSubmit").prop("disabled", "");
-    } else {
-        jQuery("#resumeSubmit").prop("disabled", "disabled");
-    }
-}
- 
-// check name field
-function validateResumeName() {
-    var nameField = jQuery("#resumeContactName");
-    var name = trim(nameField.prop("value"));
-    
-    if (!name.length) {
-        nameField.parent().removeClass("has-success");
-        return false;
-    }
-    
-    nameField.parent().addClass("has-success");
-    return true;
-}
-
-// check password field
-function validateResumeEmail() {
-    var emailField = jQuery("#resumeContactEmail");
-    var email = trim(emailField.prop("value"));
-    var emailFilter = /^[^@]+@[^@.]+\.[^@]*\w\w$/;
-    
-    if (!emailFilter.test(email)) {
-        emailField.parent().removeClass("has-success");
-        return false;
-    }
-
-    emailField.parent().addClass("has-success");
-    return true;
-}
-
-// highlight message box if text in it
-function highlightMessage() {
-    var messageField = jQuery("#resumeContactMessage");
-    var message = trim(messageField.prop("value"));
-    
-    if (!message.length) {
-        messageField.parent().removeClass("has-success");
-    } else {
-        messageField.parent().addClass("has-success");
-    }
 }
 
 /* UTILITY FUNCTIONS

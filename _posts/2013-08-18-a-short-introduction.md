@@ -2,7 +2,7 @@
 title: A Short Introduction
 date: 2013-08-18 22:00
 layout: post
-category: miscellaneous
+category: Miscellaneous
 tags: website blog
 description: "Welcome to my new website!."
 excerpt: "I find nothing."
