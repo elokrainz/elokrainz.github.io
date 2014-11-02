@@ -340,12 +340,19 @@ a.list-group-item:hover,a.list-group-item:focus{text-decoration:none;background-
 .affix{position:fixed}
 @font-face{
     font-family: 'roboto';
-    src: url('roboto-thin-webfont.eot');
-    src: url('roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
-    url('roboto-thin-webfont.woff2') format('woff2'),
-    url('roboto-thin-webfont.woff') format('woff'),
-    url('roboto-thin-webfont.ttf') format('truetype');
+    src: url('../font/roboto-thin-webfont.eot');
+    src: url('../font/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/roboto-thin-webfont.woff2') format('woff2'),
+    url('../font/roboto-thin-webfont.woff') format('woff'),
+    url('../font/roboto-thin-webfont.ttf') format('truetype');
+
+    src: url('../font/Roboto-Light-webfont.eot');
+    src: url('../font/-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/Roboto-Light-webfont.woff') format('woff'),
+    url('../font/Roboto-Light-webfont.ttf') format('truetype'),
+    url('../font/Roboto-Light-webfont.svg#svgFontName') format('svg');
     font-weight:normal;font-style:normal
+
 }
 [class^="icon-"],[class*=" icon-"]{font-family:Roboto;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em}
 
