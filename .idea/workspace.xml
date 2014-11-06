@@ -20,37 +20,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post-end.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/blog/post/post-end.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="168" selection-end="168" vertical-scroll-proportion="-3.90625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/main/content/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="192" selection-end="192" vertical-scroll-proportion="7.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/main/content/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="309" selection-end="309" vertical-scroll-proportion="-5.46875">
+            <state line="7" column="6" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/Mathematics/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.24900399">
+            <state line="6" column="74" selection-start="221" selection-end="221" vertical-scroll-proportion="-4.6875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/blog/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="11" selection-start="1128" selection-end="1128" vertical-scroll-proportion="-10.21875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2013-08-18-a-short-introduction.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2013-08-18-a-short-introduction.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="2" selection-start="696" selection-end="696" vertical-scroll-proportion="0.90636706">
               <folding />
             </state>
           </provider>
@@ -59,7 +59,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/Miscellaneous/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="73" selection-start="198" selection-end="321" vertical-scroll-proportion="-4.6875">
+            <state line="6" column="73" selection-start="198" selection-end="321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,7 +68,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/Programming/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="208" selection-end="208" vertical-scroll-proportion="-4.6875">
+            <state line="6" column="22" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,7 +104,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="525" selection-end="525" vertical-scroll-proportion="-12.5">
+            <state line="16" column="9" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,15 +128,15 @@
         <option value="$PROJECT_DIR$/_includes/main/content/blog.html" />
         <option value="$PROJECT_DIR$/_includes/main/content/contact.html" />
         <option value="$PROJECT_DIR$/_includes/main/content/home.html" />
-        <option value="$PROJECT_DIR$/_includes/blog/header.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/blog/index.html" />
-        <option value="$PROJECT_DIR$/_posts/2013-08-18-a-short-introduction.md" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/_includes/blog/post/post-end.html" />
         <option value="$PROJECT_DIR$/_layouts/category.html" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/blog/Miscellaneous/index.html" />
+        <option value="$PROJECT_DIR$/_includes/blog/header.html" />
+        <option value="$PROJECT_DIR$/_posts/2013-08-18-a-short-introduction.md" />
       </list>
     </option>
   </component>
@@ -172,6 +172,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -446,7 +447,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -522,13 +522,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529412" sideWeight="0.67085713" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2593583" sideWeight="0.67085713" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -596,65 +596,43 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="4" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/main/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/main/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="16" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="16" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/blog/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="51" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/blog/categories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="21" selection-start="1303" selection-end="1325" vertical-scroll-proportion="-5.34375">
-          <folding />
-        </state>
+        <state line="33" column="21" selection-start="1303" selection-end="1325" vertical-scroll-proportion="-5.34375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/blog/breadcrumbs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/blog/post/post-end.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="168" selection-end="168" vertical-scroll-proportion="-3.90625">
+        <state line="5" column="21" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/main/content/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="192" selection-end="192" vertical-scroll-proportion="7.75">
+        <state line="4" column="4" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/main/content/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="309" selection-end="309" vertical-scroll-proportion="-5.46875">
+        <state line="7" column="6" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -682,28 +660,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="525" selection-end="525" vertical-scroll-proportion="-12.5">
+        <state line="16" column="9" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/Miscellaneous/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="73" selection-start="198" selection-end="321" vertical-scroll-proportion="-4.6875">
+        <state line="6" column="73" selection-start="198" selection-end="321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/Programming/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="208" selection-end="208" vertical-scroll-proportion="-4.6875">
+        <state line="6" column="22" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/Mathematics/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.24900399">
+        <state line="6" column="74" selection-start="221" selection-end="221" vertical-scroll-proportion="-4.6875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/blog/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="11" selection-start="1128" selection-end="1128" vertical-scroll-proportion="-10.21875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-08-18-a-short-introduction.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="2" selection-start="696" selection-end="696" vertical-scroll-proportion="0.90636706">
           <folding />
         </state>
       </provider>
