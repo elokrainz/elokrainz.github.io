@@ -8,7 +8,7 @@ blog_tags:        "/blog/tags"
 blog_rss:         "/blog/feed.xml"
 
 # Dependencies
-markdown:         rdiscount
+markdown:         kramdown
 highlighter:      pygments
 
 # Blog Permalinks

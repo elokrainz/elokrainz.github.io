@@ -20,15 +20,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/main/content/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="6" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/Mathematics/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,10 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2013-08-18-a-short-introduction.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2013-08-18-a-short-introduction.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2013-08-18-a-short-introduction.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="2" selection-start="696" selection-end="696" vertical-scroll-proportion="0.90636706">
+            <state line="27" column="2" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="18" selection-start="283" selection-end="283" vertical-scroll-proportion="0.4681648">
               <folding />
             </state>
           </provider>
@@ -137,6 +137,7 @@
         <option value="$PROJECT_DIR$/blog/Miscellaneous/index.html" />
         <option value="$PROJECT_DIR$/_includes/blog/header.html" />
         <option value="$PROJECT_DIR$/_posts/2013-08-18-a-short-introduction.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -596,11 +597,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/main/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="16" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/blog/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="51" vertical-scroll-proportion="0.0" />
@@ -695,7 +691,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2013-08-18-a-short-introduction.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="2" selection-start="696" selection-end="696" vertical-scroll-proportion="0.90636706">
+        <state line="27" column="2" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="283" selection-end="283" vertical-scroll-proportion="0.4681648">
           <folding />
         </state>
       </provider>
