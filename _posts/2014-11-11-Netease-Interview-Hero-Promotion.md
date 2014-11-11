@@ -31,7 +31,6 @@ excerpt: "英雄升级,
 $$
 E(1) = 1 \times 1
 $$
-
 $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \Big)
        + \frac{1}{3} \times \Big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times \big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots )\big)\Big)
@@ -48,15 +47,15 @@ $$
 (ˇ_ˇ)....
 
 $$
-E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \underbrace{\frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots)}_{这货不就是...} \Big) + \cdots
+E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \underbrace{\frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots)}_{这货不就是...E...(2)...} \Big) + \cdots
 $$
 
 好吧...
 
+果然我大代数大法好.
 $$
 E(1) = 1 \times 1
 $$
-
 $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + E(2) ) +  \frac{1}{3} \times ( 1 + E(1) + E(2) )
 $$
