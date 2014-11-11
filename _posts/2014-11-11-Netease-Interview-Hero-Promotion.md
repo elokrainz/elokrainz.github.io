@@ -32,8 +32,8 @@ $$
 E(1) = 1 \times 1
 $$
 $$
-E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \big)
-       + \frac{1}{3} \times \big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ))\big)
+E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \Big)
+       + \frac{1}{3} \times \Big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ))\Big)
 $$
 $$
 E(3) =  \frac{1}{9} \times 1 +  \frac{4}{9} \times \big( 1 + \frac{1}{9} \times 1 +  \cdots\big) + \ldots
@@ -52,11 +52,11 @@ $$
 好吧...
 
 $$
-\begin{align}
-E(1) = 1 \times 1  &
+\begin{flushleft}
+E(1) = 1 \times 1  \\
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + E(2) ) +  \frac{1}{3} \times ( 1 + E(1) + E(2) ) &
 E(3) = \frac{1}{9} \times 1 + \frac{4}{9} \times ( 1 + E(3) ) +  \frac{4}{9} \times ( 1 + E(2) + E(3) ) &
-\end{align}
+\end{flushleft}
 $$
 
 于是乎... 从0级升到3级平均需要$$E(1)+E(2)+E(3) = 30$$个宝石.
