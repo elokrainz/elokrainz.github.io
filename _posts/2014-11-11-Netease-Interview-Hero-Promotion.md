@@ -1,5 +1,5 @@
 ---
-title: 一道网易面试题--英雄升级
+title: 一道网易笔试题--英雄升级
 date: 2014-11-11 22:00
 layout: post
 category: Mathematics
@@ -27,24 +27,28 @@ excerpt: "英雄升级,
 看完题目后,大脑就自动脑补状态转移方程了…果然码农的属性已然根深蒂固…
 
 一开始想正面求解,于是,就出现了…
-
+&#8194;
 $$
 E(1) = 1 \times 1
 $$
+&#8194;
 $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \Big)
        + \frac{1}{3} \times \Big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times \big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots )\big)\Big)
 $$
-
+&#8194;
 $$
 E(3) =  \frac{1}{9} \times 1 +  \frac{4}{9} \times \Big( 1 + \frac{1}{9} \times 1 +  \cdots\Big) + \ldots
 $$
 
-其中, $$E(x)$$ 表示英雄从x-1级升到x级所需宝石的期望数.
+其中, $$E(x)$$ 表示英雄从$$x-1$$级升到$$x$$级所需宝石的期望数.
 
 这...要不要拆括号求和呢???
 
+
 (ˇ_ˇ)....
+
+
 
 $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \underbrace{\frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots)}_{这货不就是...E...(2)...} \Big) + \cdots
@@ -52,14 +56,15 @@ $$
 
 好吧...
 
-果然我大代数大法好.
+果然还是我大代数大法好.
+
 $$
 E(1) = 1 \times 1
 $$
 $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + E(2) ) +  \frac{1}{3} \times ( 1 + E(1) + E(2) )
 $$
-
+&#8194;
 $$
 E(3) = \frac{1}{9} \times 1 + \frac{4}{9} \times ( 1 + E(3) ) +  \frac{4}{9} \times ( 1 + E(2) + E(3) )
 $$
