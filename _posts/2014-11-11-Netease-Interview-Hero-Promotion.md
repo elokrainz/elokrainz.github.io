@@ -31,16 +31,17 @@ excerpt: "英雄升级,
 $$
 E(1) = 1 \times 1
 $$
+
 $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \Big)
-       + \frac{1}{3} \times \Big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ))\Big)
+       + \frac{1}{3} \times \Big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times \big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots )\big)\Big)
 $$
 
 $$
 E(3) =  \frac{1}{9} \times 1 +  \frac{4}{9} \times \Big( 1 + \frac{1}{9} \times 1 +  \cdots\Big) + \ldots
-
-其中, E(x) 表示英雄从x-1级升到x级所需宝石的期望数.
 $$
+
+其中, $$E(x)$$ 表示英雄从x-1级升到x级所需宝石的期望数.
 
 这...要不要拆括号求和呢???
 
@@ -55,9 +56,11 @@ $$
 $$
 E(1) = 1 \times 1
 $$
+
 $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + E(2) ) +  \frac{1}{3} \times ( 1 + E(1) + E(2) )
 $$
+
 $$
 E(3) = \frac{1}{9} \times 1 + \frac{4}{9} \times ( 1 + E(3) ) +  \frac{4}{9} \times ( 1 + E(2) + E(3) )
 $$
