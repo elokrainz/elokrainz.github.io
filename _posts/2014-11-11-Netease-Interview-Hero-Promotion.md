@@ -35,8 +35,9 @@ $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \Big)
        + \frac{1}{3} \times \Big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ))\Big)
 $$
+
 $$
-E(3) =  \frac{1}{9} \times 1 +  \frac{4}{9} \times \big( 1 + \frac{1}{9} \times 1 +  \cdots\big) + \ldots
+E(3) =  \frac{1}{9} \times 1 +  \frac{4}{9} \times \Big( 1 + \frac{1}{9} \times 1 +  \cdots\Big) + \ldots
 
 其中, E(x) 表示英雄从x-1级升到x级所需宝石的期望数.
 $$
@@ -46,17 +47,19 @@ $$
 (ˇ_ˇ)....
 
 $$
-E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \big( 1 + \underbrace{\frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots)}_{这货不就是...} \big) + \cdots
+E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \underbrace{\frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots)}_{这货不就是...} \Big) + \cdots
 $$
 
 好吧...
 
 $$
-\begin{flushleft}
-E(1) = 1 \times 1  \\
-E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + E(2) ) +  \frac{1}{3} \times ( 1 + E(1) + E(2) ) &
-E(3) = \frac{1}{9} \times 1 + \frac{4}{9} \times ( 1 + E(3) ) +  \frac{4}{9} \times ( 1 + E(2) + E(3) ) &
-\end{flushleft}
+E(1) = 1 \times 1
+$$
+$$
+E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + E(2) ) +  \frac{1}{3} \times ( 1 + E(1) + E(2) )
+$$
+$$
+E(3) = \frac{1}{9} \times 1 + \frac{4}{9} \times ( 1 + E(3) ) +  \frac{4}{9} \times ( 1 + E(2) + E(3) )
 $$
 
 于是乎... 从0级升到3级平均需要$$E(1)+E(2)+E(3) = 30$$个宝石.
