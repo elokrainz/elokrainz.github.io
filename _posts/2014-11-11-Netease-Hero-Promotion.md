@@ -29,6 +29,7 @@ excerpt: "英雄升级,
 看完题目后,大脑就自动脑补状态转移方程了…果然码农的属性已然根深蒂固…
 
 一开始想正面求解,于是,就出现了…
+
 &#8194;
 $$
 E(1) = 1 \times 1
@@ -36,7 +37,7 @@ $$
 
 &#8194;
 $$
-E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \Big)
+E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \Big)\\
        + \frac{1}{3} \times \Big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times \big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots )\big)\Big)
 $$
 
@@ -62,6 +63,7 @@ $$
 
 果然还是我大代数大法好.
 
+&#8194;
 $$
 E(1) = 1 \times 1
 $$
