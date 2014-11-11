@@ -48,11 +48,11 @@ $$
 好吧...
 
 $$
-\begin{flalign}
-E(1) = 1 \times 1 \\
-E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + E(2) ) +  \frac{1}{3} \times ( 1 + E(1) + E(2) ) \\
-E(3) = \frac{1}{9} \times 1 + \frac{4}{9} \times ( 1 + E(3) ) +  \frac{4}{9} \times ( 1 + E(2) + E(3) ) \\
-\end{flalign}
+\begin{align}
+E(1) = 1 \times 1  &\\
+E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + E(2) ) +  \frac{1}{3} \times ( 1 + E(1) + E(2) ) &\\
+E(3) = \frac{1}{9} \times 1 + \frac{4}{9} \times ( 1 + E(3) ) +  \frac{4}{9} \times ( 1 + E(2) + E(3) ) &\\
+\end{align}
 $$
 
 于是乎... 从0级升到3级平均需要$$E(1)+E(2)+E(3) = 30$$个宝石.
