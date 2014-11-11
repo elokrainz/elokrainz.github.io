@@ -30,6 +30,7 @@ excerpt: "英雄升级,
 
 一开始想正面求解,于是,就出现了…
 
+$$$$
 &#8194;
 $$
 E(1) = 1 \times 1
@@ -54,7 +55,7 @@ $$
 (ˇ_ˇ)....
 
 
-
+&#8194;
 $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \Big( 1 + \underbrace{\frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots)}_{这货不就是...E...(2)...} \Big) + \cdots
 $$
@@ -63,6 +64,7 @@ $$
 
 果然还是我大代数大法好.
 
+$$$$
 &#8194;
 $$
 E(1) = 1 \times 1
