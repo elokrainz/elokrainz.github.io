@@ -29,7 +29,10 @@ excerpt: "英雄升级,
 一开始想正面求解,于是,就出现了…
 
 $$
-E(1) = 1 \times 1 \\
+E(1) = 1 \times 1
+$$
+&#8194;
+$$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \big)
        + \frac{1}{3} \times big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ))\big) \\
 E(3) =  \frac{1}{9} \times 1 +  \frac{4}{9} \times \big( 1 + \frac{1}{9} \times 1 +  \cdots\big) + \ldots \\
