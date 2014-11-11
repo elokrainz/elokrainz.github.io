@@ -31,10 +31,11 @@ excerpt: "英雄升级,
 $$
 E(1) = 1 \times 1
 $$
-&#8194;
 $$
 E(2) = \frac{1}{3} \times 1 + \frac{1}{3} \times \big( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ) + \frac{1}{3} \times ( 1 + 1 \times 1 + \cdots) \big)
        + \frac{1}{3} \times big( 1 + 1 \times 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} \times ( 1 + \frac{1}{3} \times 1 + \frac{1}{3} + \cdots ))\big) \\
+$$
+$$
 E(3) =  \frac{1}{9} \times 1 +  \frac{4}{9} \times \big( 1 + \frac{1}{9} \times 1 +  \cdots\big) + \ldots \\
 
 其中, E(x) 表示英雄从x-1级升到x级所需宝石的期望数.
